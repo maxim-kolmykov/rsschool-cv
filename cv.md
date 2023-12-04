@@ -52,4 +52,4 @@ init();
 - Russian \- Native
 - English \- Intermediate B1
 ----------
-[<img align="left" width="120px" alt="rsschool" src="https://rs.school/images/rs_school.svg" />](https://rs.school/) 
+[<img align="left" width="120px" alt="rsschool" src="https://rs.school/images/rs_school.svg" />](https://rs.school/)
