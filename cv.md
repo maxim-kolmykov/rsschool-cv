@@ -42,6 +42,7 @@ init();
     </script>
 ```
 ----------
+----------
 ### Education and courses:
 1. CS50 video course
 2. Video courses on YouTube channels: ITDoctor,VladilenMinin, Glo Academy, webDev
