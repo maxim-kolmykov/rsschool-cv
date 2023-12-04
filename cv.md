@@ -2,7 +2,7 @@
 ----------
 ## Contacts:
 - **Discord:** maxim-kolmykov#7806
-- **Phone:** +7 917 567-67-94
+- **Phone:** +7 917 567-67-9?
 - **E-mail:** [maximkolmykov@gmail.com](maximkolmykov@gmail.com)
 - **GitHub:** [maxim-kolmykov](https://github.com/maxim-kolmykov)
 ----------
@@ -46,7 +46,7 @@ init();
 2. Video courses on YouTube channels: ITDoctor,VladilenMinin, Glo Academy, webDev
 3. JavaScript https://learn.javascript.ru
 4. Sololearn app: HTML, CSS, Coding for Markets, Responsive Web, JavaScript, jQuery,  React + Redux 
-5. RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+5. RS Schools Course «JavaScript/Front-end. Stage 0»
 ----------
 ### Languages:
 - Russian \- Native
