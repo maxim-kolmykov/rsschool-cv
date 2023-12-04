@@ -20,6 +20,7 @@ I'm 32 years old a switcher who is changing his field of activity from accountin
 - VS Code, Notepad++
 - Adobe Photoshop, Figma
 ----------
+----------
 ### Code example:
 ```
 <div id="clock"></div>
