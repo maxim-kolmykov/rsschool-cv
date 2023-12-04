@@ -1,0 +1,488 @@
+:root {
+    --black-color: #000000;
+    --dark-blue-color: #031019;
+    --aegean-color: #2a465c;
+    --yale-color: #316d92;
+    --pigeon-color: #8d9ea5;
+    --pigeon-white-color: #d9ebf3;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: var(--pigeon-white-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--pigeon-white-color);
+}
+
+a[href^="tel:"] {
+    color: var(--pigeon-white-color);
+}
+
+a[href^="mailto:"] {
+    color: var(--pigeon-white-color);
+}
+
+
+/*=============header=============*/
+
+.header-menu__list {
+    list-style: none;
+    margin: 5px 0 5px;
+    padding: 25px 0 5px;
+    text-align: center;
+    background: var(--aegean-color);
+    background-image: linear-gradient(to top, rgba(42, 70, 92, 0.7), rgba(42, 70, 92, 1)), url("../assets/img/silver-g09131b999_1280.jpg");
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(42, 70, 92, 0.4);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(42, 70, 92, 0.4);
+    box-shadow: 0px 0px 10px 5px rgba(42, 70, 92, 0.4);
+}
+
+.header-menu__list li {
+    display: inline-block;
+}
+
+.header-menu__list li:last-child:after {
+    content: none;
+}
+
+.header-menu__list a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+}
+
+.header-menu__list a,
+.header-menu__list a:visited {
+    color: var(--pigeon-white-color);
+}
+
+.header-menu__list a.current,
+.header-menu__list a:hover {
+    color: var(--pigeon-color);
+}
+
+.header-menu__list a:before,
+.header-menu__list a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: 15px;
+    left: 50%;
+    background: var(--pigeon-color);
+    transition: .8s;
+}
+
+.header-menu__list a:hover:before,
+.header-menu__list .current:before {
+    left: 0;
+}
+
+.header-menu__list a:hover:after,
+.header-menu__list .current:after {
+    right: 0;
+}
+
+
+/* --------------------------*/
+
+.header-nav {
+    width: 1000px;
+    margin: 0px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(42, 70, 92, 0.4);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(42, 70, 92, 0.4);
+    box-shadow: 0px 0px 10px 5px rgba(42, 70, 92, 0.4);
+}
+
+.header__wrap-container {
+    background-image: linear-gradient(to top, rgba(42, 70, 92, 0.7), rgba(141, 158, 165, 0.2)), url("../assets/img/silver-g09131b999_1280.jpg");
+    background-size: cover;
+}
+
+.header__wrap-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+    margin-top: -47px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.email-icon {
+    margin: 2px 5px 0;
+}
+
+.whatsapp-icon {
+    margin: 0 5px;
+}
+
+.github-icon {
+    margin: 0 0px 0 2px;
+}
+
+.discord-icon {
+    margin: 0 5px 0 -2px;
+}
+
+.header__container {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    color: var(--dark-blue-color);
+    padding: 10px;
+    height: 45vh;
+    background-image: linear-gradient(to top, rgba(141, 158, 165, 0.2), rgba(42, 70, 92, 0.7)), url("../assets/img/silver-g09131b999_1280.jpg");
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.header__photo {
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+    margin: 10;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.header__image {
+    margin-top: 5px;
+    height: 296;
+    width: 302;
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.header__content {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header__info {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+.header__title {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.header__subtitle {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+/*=============main=============*/
+
+.main a {
+    text-decoration: none;
+    color: var(--dark-blue-color);
+}
+
+.main__container {
+    background-image: linear-gradient(to top, rgba(141, 158, 165, 0.1), rgba(42, 70, 92, 0.9)), url("../assets/img/silver-g09131b999_1280.jpg");
+    color: var(--pigeon-white-color);
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.main-content__container {
+    display: flex;
+}
+
+.aside {
+    width: 26%;
+    padding: 20px 10px 0 5px;
+    color: var(--pigeon-white-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.side__header {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--pigeon-white-color);
+}
+
+.main {
+    width: 74%;
+    padding: 20px 30px;
+    color: var(--dark-blue-color);
+    background: rgb(217, 235, 243, 0.1);
+    background: -moz-linear-gradient(180deg, rgba(217, 235, 243, 0.1) 0%, rgba(141, 158, 165, 0.1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(217, 235, 243, 0.1) 0%, rgba(141, 158, 165, 0.1) 100%);
+    background: linear-gradient(180deg, rgba(217, 235, 243, 0.1) 0%, rgba(141, 158, 165, 0.1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#d9ebf3", endColorstr="#8d9ea5", GradientType=1);
+}
+
+.main__header {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: right;
+}
+
+.main__descr {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.main__subheader {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.main__list {
+    margin: 0 0 10px 0;
+    padding: 10px 0 0 30px;
+    list-style: circle;
+}
+
+.main__item {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.code-example {
+    display: flex;
+    flex-direction: column;
+}
+
+.code-example .pre {
+    margin: 0;
+    display: flex;
+    align-self: center;
+    width: 100%;
+}
+
+.code-example .code {
+    width: 100%;
+    line-height: 22px;
+    padding: 0;
+    background: rgb(3, 16, 25);
+    background: -moz-linear-gradient(180deg, rgba(3, 16, 25, 0.9556197478991597) 0%, rgba(42, 70, 92, 0.8547794117647058) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(3, 16, 25, 0.9556197478991597) 0%, rgba(42, 70, 92, 0.8547794117647058) 100%);
+    background: linear-gradient(180deg, rgba(3, 16, 25, 0.9556197478991597) 0%, rgba(42, 70, 92, 0.8547794117647058) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#031019", endColorstr="#2a465c", GradientType=1);
+    color: var(--pigeon-color);
+}
+
+.divider {
+    height: 2px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.divider_pigeon {
+    background-color: var(--pigeon-color);
+}
+
+.divider_dark-blue {
+    background-color: var(--dark-blue-color);
+}
+
+.contacts {
+    margin-bottom: 15px;
+}
+
+.skills {
+    margin-bottom: 15px;
+}
+
+.main__about {
+    margin-bottom: 15px;
+}
+
+.code-example {
+    margin-bottom: 15px;
+}
+
+.projects {
+    margin-bottom: 15px;
+}
+
+.languages {
+    margin-bottom: 15px;
+}
+
+.contacts li {
+    line-height: 1.7;
+}
+
+.contacts ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+.skills ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+.languages ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+.projects ul {
+    list-style: square;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.courses ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+
+/*=============footer=============*/
+
+.footer {
+    margin: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--pigeon-white-color);
+}
+
+.footer__container {
+    background-image: linear-gradient(to top, rgba(42, 70, 92, 0.7), rgba(3, 16, 25, 0.9)), url("../assets/img/silver-g09131b999_1280.jpg");
+    background-size: cover;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 1rem;
+    color: var(--pigeon-white-color);
+    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(42, 70, 92, 0.4);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(42, 70, 92, 0.4);
+    box-shadow: 0px 0px 10px 5px rgba(42, 70, 92, 0.4);
+}
+
+.footer__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-github {
+    display: flex;
+    align-items: center;
+}
+
+.github-icon {
+    margin-right: 10px;
+}
+
+.footer__date {
+    font-weight: bold;
+    color: var(--pigeon-white-color)
+}
+
+
+/*=============media=============*/
+
+
+/*
+@media (max-width: 550px) {
+    .header-menu__list {
+        padding-top: 0;
+    }
+    .header-menu__list li {
+        display: block;
+    }
+    .header-menu__list li:after {
+        content: none;
+    }
+    .header-menu__list a {
+        padding: 25px 0 20px;
+        margin: 0 30px;
+    }
+}
+*/
