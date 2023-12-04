@@ -46,7 +46,7 @@ init();
 2. Video courses on YouTube channels: ITDoctor,VladilenMinin, Glo Academy, webDev
 3. JavaScript https://learn.javascript.ru
 4. Sololearn app: HTML, CSS, Coding for Markets, Responsive Web, JavaScript, jQuery,  React + Redux 
-5. RS Schools Course «JavaScript/Front-end. Stage 0»
+5. RS Schools Course «JavaScript/Front-end. Stage 0 2022»
 ----------
 ### Languages:
 - Russian \- Native
