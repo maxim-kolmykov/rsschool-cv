@@ -9,3 +9,14 @@
 ## About Me
 I'm 32 years old a switcher who is changing his field of activity from accounting to web-development. I had front-end web development experience in 2009 with table block markup with HTML 4.01, CSS2, JavaScript ES5 standards, now I want to learn new modern Front-end technologies in **RSSchool**!
 ----------
+### Skills and Proficiency:
+- HTML5 (HTML 4.01)
+- CSS3 (SASS/SCSS, LESS, BEM, Bootstrap)
+- JavaScript (Fundamentals,Functional Programming, OOP, Asynchronous JavaScript, ES5, ES6+, DOM), JSON
+- React JS (Basics), Redux (Basics)
+- Gulp (Basics), Webpack (Basics)
+- MongoDB (Basics)
+- Git, GitHub
+- VS Code, Notepad++
+- Adobe Photoshop, Figma
+----------
