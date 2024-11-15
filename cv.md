@@ -17,9 +17,12 @@ I'm 32 years old a switcher who is changing his field of activity from accountin
 - Gulp (Basics), Webpack (Basics)
 - MongoDB (Basics)
 - Git, GitHub
-- VS Code, Notepad++
+- VS Code
 - Adobe Photoshop, Figma
+
+***
 ----------
+
 ----------
 ### Code example:
 ```
